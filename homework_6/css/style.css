@@ -1,0 +1,28 @@
+.head {
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	background-color: black;
+	left: 0;
+	top: 0;
+}
+.text {
+	margin-top: 70px;
+}
+.h {
+	width: 18%;
+	height: 70%;
+	background-color: white;
+	display: inline-block;
+	margin-right: -4px;
+	border: 2px solid black;
+	text-align: center;
+	top: 15%;
+	position: relative;
+	right: -4%;
+	
+}
+a {
+	text-decoration: none;
+	color: green;
+	
