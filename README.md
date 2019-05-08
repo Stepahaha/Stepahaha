@@ -1,6 +1,6 @@
 
 
-# Stepahaha.github.io
+# Stepan
 Готовые домашки
 
 [Урок 7](https://stepahaha.github.io/homework-7/index.html "HTML/CSS")-сайт на чистом HTML/CSS
