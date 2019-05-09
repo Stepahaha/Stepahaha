@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-image: url('/img/bg.png');
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+.create {
+  width: 149px;
+  height: 25px;
+  background-color: #01c1c1;
+  position: relative;
+  left: 42.6%;
+  top: 22px;
+}
+.create p {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 750;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  padding-top: 5px;
+}
+.box {
+  width: 323px;
+  height: 370px;
+  border: solid 2px #cfdede;
+  display: inline-block;
+  background-color: #fff;
+}
+.box button {
+  background-color: #01c1c1;
+  height: 45px;
+  width: 260px;
+  border: none;
+}
+.box span {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+.form {
+  margin-bottom: 35px;
+  margin-bottom: -10;
+}
+.form p {
+  font-weight: 800;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  color: #5d5d5d;
+  text-align: left;
+  margin-left: 30px;
+}
+.form input {
+  text-align: center;
+  background-image: url('/img/bg.png');
+  font-weight: 400;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  color: #a0a5a5;
+  width: 262px;
+  height: 32px;
+  border: solid 1px;
+  display: block;
+  margin-left: 30px;
+  font-style: italic;
+}
+.form span {
+  color: #01b3b3;
+  font-size: 8px;
+}
+.first {
+  margin-top: 56px;
+  margin-bottom: 7px;
+  bottom: 400px;
+}
+.second {
+  margin-top: -20px;
+  margin-bottom: 12px;
+}
+.third {
+  margin-top: -20px;
+}
