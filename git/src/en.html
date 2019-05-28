@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Delete</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<a class="btn btn-info engg" href="index.html">Русская версия</a>
+	<button class="btn btn-danger main-bt" data-toggle="modal" data-target="#file">Delete file</button>
+
+	<!-- настройки модального окна -->
+
+	<div class="modal fade" id="file">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">Delete file?</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<button class="btn btn-danger mybtn_1 bttt" data-toggle="modal" data-target="#yes">YES</button>
+	      	<button class="btn btn-success mybtn_2 bttt"data-toggle="modal" data-target="#no">NO</button>
+	      </div>
+	      <div class="modal-footer">
+	      
+	        
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	    <!-- Если удалил -->
+
+	<div class="modal fade" id="yes">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">And for what?</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<h1 class="h1-post">You are zero postironic</h1>
+	      	<img src="https://memepedia.ru/wp-content/uploads/2018/09/postironichnye-memy.png" alt="post" class="post-img">
+	      </div>
+	      <div class="modal-footer">
+	      	<h5 class="rich">its checnya son</h5>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<!-- Если не удалил -->
+
+	<div class="modal fade" id="no">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">Good boy</h4>
+	      </div>
+	      <div class="modal-body">
+	      	<h1 class="h1-post">As talkinitsa</h1>
+	      	<img src="https://pp.userapi.com/c854420/v854420235/4b235/hOYq5HGtXAk.jpg" alt="post" class="post-pic">
+	      </div>
+	      <div class="modal-footer">
+	     <h5 class="rich">rich to bomj dont brat</h5>
+	        
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<!-- jq библ -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<!-- мод окна от бс -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
