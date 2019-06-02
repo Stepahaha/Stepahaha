@@ -14,4 +14,5 @@
 
 [Урок 17 ](https://Stepahaha.github.io/git/src/index.html "PostIronia")-сайт с постиронией
 
-[Урок 12 по JQ](https://Stepahaha.github.io/src/index.html "Drum-machine")-драм машина на jq
+[Урок 12 по JQ](https://Stepahaha.github.io/src/index.html "Drum-machine")-драм машина на JQ
+[Дз по 12 уроку JQ](https://Stepahaha.github.io/пианино/src/index.html "piano")- пианино на JQ
