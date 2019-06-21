@@ -12,7 +12,7 @@
 
 [Урок 13](https://Stepahaha.github.io/homework_13/index.html "Pixel")- Pixel perfect форма
 
-[Урок 17 ](https://Stepahaha.github.io/git/src/index.html "PostIronia")-сайт с постиронией
+
 
 [Урок 12 по JQ](https://Stepahaha.github.io/src/index.html "Drum-machine")-драм машина на JQ
 
