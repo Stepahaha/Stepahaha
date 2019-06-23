@@ -17,3 +17,5 @@
 [Урок 12 по JQ](https://Stepahaha.github.io/src/index.html "Drum-machine")-драм машина на JQ
 
 [Дз по 12 уроку JQ](https://Stepahaha.github.io/пианино/src/index.html "piano")- пианино на JQ
+
+[Шаблон сайта для наставника] (https://Stepahaha.github.io/For_Teacher/src/index.html "template") - Макет
