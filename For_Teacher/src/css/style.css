@@ -1,0 +1,78 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.header {
+  width: 100%;
+  height: 770px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding-top: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: url("../img/bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.45);
+  background-blend-mode: darken; }
+  .header__nav {
+    margin-right: auto;
+    width: 77%;
+    height: 23px;
+    margin-left: 229px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .header__nav-title {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+      margin-right: 600px; }
+    .header__nav-link {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      margin-right: 35px;
+      letter-spacing: 0.35px;
+      color: #fff;
+      text-decoration: none; }
+  .header__welcome {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff; }
+    .header__welcome-title {
+      text-transform: uppercase;
+      margin-bottom: 50px; }
+    .header__welcome-subtitle {
+      font-family: 'Roboto Slab', serif;
+      font-weight: 400;
+      font-weight: 400;
+      margin-bottom: 50px;
+      font-size: 23px; }
+    .header__welcome-btn {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      color: #fff;
+      background-color: transparent;
+      border: 2px solid #fff;
+      border-radius: 2px;
+      padding: 20px 35px;
+      text-transform: uppercase; }
