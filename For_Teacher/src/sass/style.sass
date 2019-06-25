@@ -1,4 +1,39 @@
+*
+	box-sizing: border-box
+
+/*Base Set*/
+
 $light: #fff
+$grey: #555555
+$bg: #f8f8f8
+$picBg: #c0301c
+
+@mixin line 
+	width: 50px
+	height: 2px
+	margin: auto
+	background-color: $grey
+
+@mixin subtitle
+	@include SlabReg
+	margin-top: 30px	
+	font-size: 16px
+	font-weight: 400
+	line-height: 24px		
+
+@mixin WorkBg
+	background-size: cover
+	background-color: rgba(192, 48, 28, 0.7)
+	background-blend-mode: darken
+
+@mixin title
+	@include MonReg
+	margin-top: 20px
+	margin-bottom: 15px
+	font-size: 14px
+	font-weight: 400
+	line-height: 24px
+	text-transform: uppercase
 
 @mixin MonBold 
 	font: 
@@ -17,9 +52,8 @@ $light: #fff
 		family: 'Roboto Slab', serif
 		weight: 700
 
-*
-	box-sizing: border-box
 
+/*header*/
 
 .header
 	width: 100%
@@ -31,7 +65,7 @@ $light: #fff
 	justify-content: center
 	background: url('../img/bg.jpg') no-repeat center center
  background-size: cover
- background-color: rgba(0,0,0,.45)
+ background-color: rgba(0, 0, 0, 0.45)
  background-blend-mode: darken
 	&__nav
 		margin-right: auto
@@ -79,6 +113,322 @@ $light: #fff
 			border-radius: 2px
 			padding: 20px 35px
 			text-transform: uppercase
+			&:active, &:focus
+				outline: none
+			&:hover
+				cursor: pointer
+				
+/*Services*/
+
+.services
+	color: $grey
+	padding-top: 100px
+	padding-bottom: 100px
+	padding-left: auto
+	&-text
+		display: block
+		width: 100%
+		height: 92px
+		text-align: center
+		margin-bottom: 90px
+		&__title
+			@include title
+			font-size: 20px
+			margin-bottom: 30px
+
+		&__line
+			@include line
+		&__subtitle
+			@include subtitle
+	&-features
+		display: flex
+		width: 70%
+		height: 217px
+		margin: auto
+		justify-content: space-between
+		text-align: center
+		&__item
+			margin-right: 45px
+			padding-left: 45px
+		 &-title
+		 	@include MonReg
+		 	font-size: 14px
+		 	font-weight: 400
+		 	line-height: 24px
+		 	text-transform: uppercase
+		 &-text
+		 	@include SlabReg
+		 	font-size: 14px
+		 	font-weight: 400
+		 	line-height: 24px	
+
+/*About us*/
+
+.information
+	background-color: $bg 
+	color: $grey
+	padding-top: 100px
+	padding-bottom: 100px
+	&-intro
+		display: block
+		width: 100%
+		height: 92px
+		text-align: center
+		margin-bottom: 70px
+		&__title
+			@include MonReg
+			margin-bottom: 30px
+			font-size: 20px
+			font-weight: 400
+			line-height: 24px
+			text-transform: uppercase
+		&__subtitle
+		 @include subtitle
+		&__line
+				@include line
+	&-text
+		display: flex
+		width: 71%
+		margin: auto
+		margin-bottom: 70px
+		padding-left: 32px
+		justify-content: space-between
+		&__inf
+			@include SlabReg
+			margin-right: 32px
+			font-size: 14px
+			font-weight: 400
+			line-height: 24px
+	&-employees
+		display: flex
+		justify-content: center
+		text-align: center
+		width: 71%
+		margin: auto
+		padding-left: 30px
+		&__block
+			margin-right: 30px
+			&-title
+				@include MonReg
+				margin-top: 20px
+				margin-bottom: 15px
+				font-size: 14px
+				font-weight: 400
+				line-height: 24px
+				text-transform: uppercase
+			&-subtitle
+				@include 	SlabReg
+				font-size: 14px
+				font-weight: 400
+				line-height: 24px
+			.empl-block
+				overflow-y: hidden
+				transition: all 0.3s
+				&__contacts
+					display: flex
+					width: 100%
+					justify-content: center
+					transform: translateY(30%)
+					transition: all 0.3s
+					padding-top: 76%		
+					padding-left: 9px
+					&-pic
+						background-color: transparent
+						transition: all 0.3s
+						padding: 6px 10px	
+						margin-right: 9px
+						&:hover
+							background-color: $picBg
+			&-1
+				height: 250px
+				width: 263px
+				background-color: rgba(255,255,255,0)
+				background: url('../img/empl/1.jpg') no-repeat center center
+			 background-size: cover
+			 background-blend-mode: darken
+			&-2
+				height: 250px
+				width: 263px
+				background-color: rgba(255,255,255,0)
+				background: url('../img/empl/2.jpg') no-repeat center center
+			 background-size: cover
+			 background-blend-mode: darken
+			&-3
+				height: 250px
+				width: 263px
+				background-color: rgba(255,255,255,0)
+				background: url('../img/empl/3.jpg') no-repeat center center
+			 background-size: cover
+			 background-blend-mode: darken
+			&-4
+				height: 250px
+				width: 263px
+				background-color: rgba(255,255,255,0)
+				background: url('../img/empl/4.jpg') no-repeat center center
+			 background-size: cover
+			 background-blend-mode: darken
+			.empl-block:hover
+					background-color: rgba(85,85,85,.5)
+					.empl-block__contacts
+						transform: translateY(0)
+
+/*Works*/
+
+.works
+	padding-top: 100px
+	padding-bottom: 100px
+	&-text
+		margin: auto
+		width: 26%
+		height: 92px
+		text-align: center
+		color: $grey
+		&__title
+			@include title
+			font-size: 20px
+			margin-bottom: 30px
+		&__line
+			@include line
+			margin-bottom: 30px
+		&__group
+			@include subtitle
+			display: flex
+			justify-content: space-between
+			&-link
+				color: $grey
+				outline: none
+				text-decoration: none
+				&:hover
+					color: $picBg
+	&-exampl
+		display: flex
+		flex-flow: row wrap
+		margin-top: 70px
+		margin: auto
+		padding-top: 70px
+		padding-left: 30px
+		width: 70%
+		&__block
+			overflow: hidden
+			text-align: center
+			margin-right: 30px
+			margin-top: 30px
+			width: 30%
+			height: 320px
+			transition: all 0.3s
+			&:hover
+				.works-exampl__block-mask
+					transform: translateY(0)
+					@include WorkBg
+			&-mask
+				margin: auto
+				display: flex
+				align-items: center
+				flex-flow: column wrap
+				justify-content: center
+				width: 93%
+				height: 100%
+				transform: translateY(100%)
+				transition: all 0.3s
+				&-title
+					@include MonReg
+					color: $light
+					font-size: 18px
+					font-weight: 400
+					line-height: 24px
+					margin-bottom: 16px
+				&-subtitle
+						@include SlabReg
+						color: $light
+						margin-bottom: 25px
+						font-size: 12px
+						font-weight: 400
+						line-height: 24px
+				&-btn
+					span
+						font-size: 20px
+						margin-left: 2px
+					padding: 7px 16px		
+					@include SlabReg
+					cursor: pointer
+					background-color: $light
+					color: $picBg
+					font-size: 14px
+					font-weight: 400
+					line-height: 24px
+					letter-spacing: 1.4px
+					text-transform: uppercase
+
+		.exam-block1
+			background: url('../img/works/1.jpg') no-repeat center center
+		.exam-block2
+			background: url('../img/works/2.jpg') no-repeat center center
+		.exam-block3
+			background: url('../img/works/3.jpg') no-repeat center center
+		.exam-block4
+			background: url('../img/works/4.jpg') no-repeat center center
+		.exam-block5
+			background: url('../img/works/5.jpg') no-repeat center center
+		.exam-block6
+			background: url('../img/works/6.jpg') no-repeat center center
+		.exam-block7
+			background: url('../img/works/7.jpg') no-repeat center center
+		.exam-block8
+			background: url('../img/works/8.jpg') no-repeat center center
+		.exam-block9
+			background: url('../img/works/9.jpg')	no-repeat center center
+
+/*Add*/
+
+.add
+		width: 100%
+		height: 369px
+		background: url('../img/bgAdd.jpg') no-repeat center center
+		@include WorkBg
+		display: flex
+		flex-flow: wrap column
+		justify-content: center
+		align-items: center
+		&__text
+			@include SlabReg
+			color: $light
+			font-size: 30px
+			font-weight: 400
+			line-height: 44px
+		&__btn
+			padding: 18px 27px
+			background-color: transparent
+			border-radius: 2px
+			border: 2px solid $light
+			@include SlabReg
+			color: $light
+			font-size: 18px
+			font-weight: 400
+			line-height: 44px
+			text-transform: uppercase
+			cursor: pointer
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+			 		
+
+
+					
+
+
+			
 
 
 
