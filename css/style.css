@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'MullerExtraBold';
+  src: url("../fonts/MullerExtraBold.eot");
+  src: url("../fonts/MullerExtraBold.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/MullerExtraBold.woff2") format("woff2");
+  src: url("../fonts/MullerExtraBold.woff") format("woff");
+  src: url("../fonts/MullerExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'MullerMedium';
+  src: url("../fonts/MullerMedium.eot");
+  src: url("../fonts/MullerMedium.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/MullerMedium.woff2") format("woff2");
+  src: url("../fonts/MullerMedium.woff") format("woff");
+  src: url("../fonts/MullerMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'MullerRegular';
+  src: url("../fonts/MullerRegular.eot");
+  src: url("../fonts/MullerRegular.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/MullerRegular.woff2") format("woff2");
+  src: url("../fonts/MullerRegular.woff") format("woff");
+  src: url("../fonts/MullerRegular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1170px;
+  margin: auto; }
+
+.header .tagline {
+  background-color: transparent;
+  padding-bottom: 21px; }
+  .header .tagline-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+  .header .tagline-descr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .header .tagline-descr-line {
+      width: 2px;
+      height: 40px;
+      margin-left: 34px;
+      margin-right: 33px;
+      background-color: #1e1f27;
+      opacity: 0.46; }
+    .header .tagline-descr-text {
+      font-family: 'MullerRegular', sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      color: #1d1d1d;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19px; }
+  .header .tagline-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: wrap column;
+    flex-flow: wrap column; }
+    .header .tagline-contact__call-img {
+      margin-right: 12px; }
+    .header .tagline-contact__call-phone {
+      color: #1d1d1d;
+      font-family: 'MullerExtraBold', sans-serif;
+      font-weight: 800;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 23.55px;
+      text-decoration: underline; }
+    .header .tagline-contact__address {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .header .tagline-contact__address-img {
+        margin-right: 12px; }
+      .header .tagline-contact__address-text {
+        color: #858585;
+        font-family: 'MullerRegular', sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 27.69px;
+        display: inline-block; }
+
+.header .navbar {
+  background-color: #f5f7f9; }
+  .header .navbar-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 0; }
+  .header .navbar-bonus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .header .navbar-bonus__box {
+      margin-right: 17px; }
+    .header .navbar-bonus__text {
+      color: #1e1f27;
+      font-family: 'MullerExtraBold', sans-serif;
+      font-weight: 800;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 27.69px; }
