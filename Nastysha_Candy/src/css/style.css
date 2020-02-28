@@ -59,9 +59,20 @@ body {
 .header__logo {
   width: 201px;
   height: 83px;
-  margin-right: 35px;
-  background-image: url("../img/logo.png");
-  background-repeat: no-repeat; }
+  margin-right: 35px; }
+  .header__logo__title {
+    font-family: 'Olga', sans-serif;
+    font-size: 32px;
+    line-height: 43px; }
+    .header__logo__title::first-letter {
+      font-size: 55px;
+      line-height: 75px; }
+  .header__logo__subtitle {
+    font-size: 10px;
+    line-height: 13px;
+    font-family: 'Avenir';
+    margin-left: 80px;
+    margin-top: -20px; }
 
 .header-nav__link {
   color: #ffffff;
@@ -297,7 +308,22 @@ body {
     background-image: url("../img/mobBG_Mid.jpg"); }
     .main-content__title {
       font-size: 62px;
-      margin-right: 95px; } }
+      margin-right: 95px; }
+  .header__logo {
+    margin-top: -18px; }
+    .header__logo__title {
+      font-family: 'Olga', sans-serif;
+      font-size: 19px;
+      line-height: 26px; }
+      .header__logo__title::first-letter {
+        font-size: 32px;
+        line-height: 43px; }
+    .header__logo__subtitle {
+      font-size: 5px;
+      line-height: 6px;
+      font-family: 'Avenir';
+      margin-left: 55px;
+      margin-top: -10px; } }
 
 @media (max-width: 576px) {
   .container {
@@ -311,10 +337,6 @@ body {
 @media (max-width: 430px) {
   .container {
     max-width: 430px; }
-  .header__logo {
-    margin-top: -18px;
-    background-image: url("../img/small_logo.png");
-    max-width: 120px; }
   .main-block {
     display: -webkit-box;
     display: -ms-flexbox;
