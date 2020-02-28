@@ -313,7 +313,8 @@ body {
     max-width: 430px; }
   .header__logo {
     margin-top: -18px;
-    background-image: url("../img/small_logo.png"); }
+    background-image: url("../img/small_logo.png");
+    max-width: 120px; }
   .main-block {
     display: -webkit-box;
     display: -ms-flexbox;
