@@ -103,11 +103,11 @@ body {
     line-height: 17px; }
 
 .header-btn {
-  padding-top: 7px;
   border: none;
   border-radius: 50px;
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  background-color: #000000;
+  height: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -117,6 +117,12 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  .header-btn img {
+    width: 25px;
+    height: 25px; }
+
+.mob {
+  display: none; }
 
 .main {
   background-image: url("../img/bg.jpg");
@@ -161,11 +167,32 @@ body {
     .main-social__link {
       margin-bottom: 10px; }
 
-@media (max-width: 980px) {
+@media (max-width: 990px) {
   .container {
     max-width: 980px; }
   .header {
-    position: relative; }
+    position: relative;
+    padding-top: 15px; }
+    .header-btn {
+      width: 30px;
+      height: 30px; }
+      .header-btn img {
+        width: 17px;
+        height: 17px; }
+    .header .mob {
+      display: block;
+      padding-top: 7.5px;
+      padding-left: 4.7px;
+      background-color: #ffffff;
+      border-radius: 50%;
+      margin-right: 10px; }
+      .header .mob:active {
+        outline: none; }
+      .header .mob:checked {
+        outline: none; }
+      .header .mob img {
+        height: 20px;
+        width: 20px; }
     .header-block {
       padding: 15px;
       padding-left: 0;
@@ -224,7 +251,7 @@ body {
         -ms-transform: rotate(-45deg);
         transform: rotate(-45deg); }
     .header .header-mob-btn {
-      margin-top: -8px; }
+      margin-top: -12px; }
     .header-menu {
       margin-top: -15px;
       display: none;
@@ -267,30 +294,12 @@ body {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
-    .header-phone {
-      margin-top: 0;
-      margin-right: 10px;
-      border-radius: 50px;
-      background-color: #F7F8FA;
-      padding-left: 1px;
-      padding-right: 2px;
-      width: 30px;
-      height: 30px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center; }
-      .header-phone__img {
-        display: none; }
-      .header-phone__img-dark {
-        display: block; }
-      .header-phone__link {
-        display: none; }
+    .header-phone__img {
+      display: none; }
+    .header-phone__img-dark {
+      display: block; }
+    .header-phone__link {
+      display: none; }
   .main {
     background-image: url("../img/mobBG_Big.jpg");
     background-position: center right; }
@@ -310,7 +319,8 @@ body {
       font-size: 62px;
       margin-right: 95px; }
   .header__logo {
-    margin-top: -18px; }
+    margin-top: -18px;
+    margin-left: 20px; }
     .header__logo__title {
       font-family: 'Olga', sans-serif;
       font-size: 19px;
