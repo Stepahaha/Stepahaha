@@ -1,0 +1,28 @@
+.swiper-container {
+  margin-top: 41px;
+  height: 100px;
+  width: 533px; }
+
+.swiper-pagination-bullet {
+  border: 1px solid #5A7D9B;
+  background-color: transparent; }
+  .swiper-pagination-bullet-active {
+    background-color: #5A7D9B; }
+
+.swiper-slide {
+  width: 162px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: 'Avenir', sans-serif;
+  font-size: 9px;
+  line-height: 11px;
+  color: #759ABA; }
+  .swiper-slide__icon {
+    margin-right: 18px; }

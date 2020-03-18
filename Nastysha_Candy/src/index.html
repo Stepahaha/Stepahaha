@@ -5,6 +5,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Nastysha Candy</title>
  <link rel="stylesheet" href="css/reset.css">
+ <link rel="stylesheet" href="css/swiper.min.css">
  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -31,6 +32,11 @@
      <div class="header-map">
       <img src="img/header/icons/mapMarker.svg" alt="Карта" class="header-map__img">
       <a href="#" class="header-map__link">Сертолово</a>
+     </div>
+     <div class="header-tagline">
+      <p class="header-tagline__text">
+       Маленькие сладости нужны, чтобы баловать <br> себя и родных как можно чаще 
+      </p>
      </div>
     </div>
     <div class="header-phone header-mob-btn">
@@ -73,15 +79,41 @@
  <section class="descr">
    <div class="container">
      <div class="descr-block">
-       <div class="descr-block__title"></div>
-       <div class="descr-block-text">
-         <p class="descr-block-text__item"></p>
-         <p class="descr-block-text__item"></p>
+      <div class="descr-block-text">
+       <div class="descr-block__title">Nastysha candy</div>
+         <p class="descr-block-text__item">Профессиональный кондитер. <br>Я изготавливаю на заказ торты и пирожные.</p>
+         <p class="descr-block-text__item">Кондитерские изделия для бизнес-встреч, семейных праздников, общественных мероприятий.
+          Я использую как классические рецепты, так и свои рецепты, собранные во время путешествий. 
+          Если вдруг вы не нашли нужное изделие в каталоге, то я испеку по вашему рецепту. </p>
        </div>
-     </div>
-   </div>
+      <div class="descr-block__img">
+       <img src="img/descr/Cake.png" alt="Торт">
+      </div>
+    </div>
+
+    <!-- Slider -->
+    <div class="swiper-container">
+     <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img class="swiper-slide__icon" src="img/descr/icons/cake.svg" alt="ТортИконка">
+        <p class="swiper-slide__text">Удолетворю даже <br> самые изысканные вкусы</p>
+      </div>
+      <div class="swiper-slide">
+        <img class="swiper-slide__icon" src="img/descr/icons/phone24.svg" alt="ТелефонИконка">
+        <p class="swiper-slide__text">Привезу в любое <br> время суток </p>
+       </div>
+       <div class="swiper-slide">
+        <img class="swiper-slide__icon" src="img/descr/icons/money.svg" alt="ОплатаИконка">
+        <p class="swiper-slide__text">Оплата наличными <br> или картой</p>
+      </div> 
+      </div>
+      <div class="swiper-pagination"></div>
+    </div> 
+</div>
  </section>
 
+ <script src="js/swiper.min.js"></script>
  <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="

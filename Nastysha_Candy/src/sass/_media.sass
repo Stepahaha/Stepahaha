@@ -1,9 +1,14 @@
 @media (max-width: 990px)
+ .descr-block
+  flex-direction: column
+  &-text
+   margin-right: 0
+@media (max-width: 990px)
  .container
-  max-width: 980px
+  max-width: 100%
  .header
   position: relative
-  padding-top: 15px
+  // padding-top: 15px
   &-btn
    width: 30px
    height: 30px
@@ -23,7 +28,9 @@
     outline: none    
    img
     height: 20px
-    width: 20px    
+    width: 20px   
+  &-tagline
+   display: block   
   &-block
    padding: 15px
    padding-left: 0
@@ -72,14 +79,13 @@
    margin-top: -15px
    display: none
    background: linear-gradient(330.6deg, #8696A8 1.56%, #9BBDD2 100%)
-   // border: 1px solid red
-   // top: 1px
-   // right: 0.1px
    width: 100vw
    position: absolute
    padding-bottom: 15px
-   padding-top: 72px
+   padding-top: 62px
    flex-direction: column
+   .header-map
+    margin-bottom: 69.5px
    .header-nav
     display: flex
     flex-direction: column
@@ -127,7 +133,6 @@
     display: none
   &-img
    display: none
-
 @media (max-width: 750px)   
  .container
   max-width: 750px
@@ -154,18 +159,16 @@
    margin-top: -10px
    
   
-@media (max-width: 576px)   
- .container
-  max-width: 576px
+@media (max-width: 550px)   
  .main
   background-image: url('../img/mobBG.jpg')
   &-content__title
    font-size: 45px
    line-height: 65px  
-
+ .descr
+  .swiper-container
+   width: 162px
 @media (max-width: 430px)
- .container
-  max-width: 430px
  .main
   &-block
    display: flex
@@ -174,7 +177,31 @@
   &-content__title
    font-size: 32px  
    line-height: 41px
+ .descr
+  padding-top: 60px
+  &-block   
+   &__title
+    margin-bottom: 25px
+    font-size: 50px
+   &-text
+    width: 340px
+    &__item
+     font-size: 14px
+     line-height: 16px
+     margin-bottom: 15px
+     &:last-child
+      margin-bottom: 25px
+      font-size: 12px
 
 @media (max-width: 342px) 
  .main-content
   max-width: 320px
+ .descr-block-text
+  width: 280px 
+ 
+  
+
+@media (min-width: 550px)
+ .swiper-pagination
+  display: none
+  
