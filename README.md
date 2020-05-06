@@ -21,3 +21,5 @@
 [Шаблон сайта для наставника](https://Stepahaha/Stepahaha.github.io/blob/master/For_Teacher/src/index.html "template") - Макет
 
 [Шаблон сайта для наставника](https://Stepahaha.github.io/Nastysha_Candy/src/index.html "Nastysha_Candy") - Beta
+
+[Тестовый сайт](https://Stepahaha.github.io/6y/src/index.html "Тест по строй-материалам")
