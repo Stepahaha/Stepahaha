@@ -24,4 +24,4 @@
 
 [Тестовый сайт](https://Stepahaha/6y/src/index.html "Тест по строй-материалам")
 
-[Таймер на нативном JS] (https://Stepahaha/timer/index.html "Свой таймер")
+[Таймер на нативном JS](https://Stepahaha/timer/index.html "Свой таймер")
